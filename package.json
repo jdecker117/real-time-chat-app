@@ -19,10 +19,22 @@
   },
   "homepage": "https://github.com/jdecker117/real-time-chat-app#readme",
   "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
     "node": "^18.10.0",
     "socket.io": "^4.5.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "files.associations": {
+    "*.ejs": "html"
+  },
+  "emmet.includeLanguages": {
+    "ejs": "html"
+  },
+  "htmlhint.options": {
+    "spec-char-escape": false,
+    "doctype-first": false
+}
 }
