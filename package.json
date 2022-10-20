@@ -1,40 +1,19 @@
 {
-  "name": "real-time-chat-app",
+  "name": "current-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "devStart": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jdecker117/real-time-chat-app.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jdecker117/real-time-chat-app/issues"
-  },
-  "homepage": "https://github.com/jdecker117/real-time-chat-app#readme",
   "dependencies": {
-    "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "node": "^18.10.0",
-    "socket.io": "^4.5.2"
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
-  },
-  "files.associations": {
-    "*.ejs": "html"
-  },
-  "emmet.includeLanguages": {
-    "ejs": "html"
-  },
-  "htmlhint.options": {
-    "spec-char-escape": false,
-    "doctype-first": false
-}
+    "nodemon": "^1.19.0"
+  }
 }
